@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
-  cout<< "Hello Hridoy" ;
+
+  int x= 10, y=20 ;
+  if (x == y);
+    cout<<x <<" "<<y;
   return 0;
 }
