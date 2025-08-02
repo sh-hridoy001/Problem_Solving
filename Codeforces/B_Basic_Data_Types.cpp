@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int Int ;
+  int Int ;
   long long Long ;
   char ch ;
   float Flo ;
