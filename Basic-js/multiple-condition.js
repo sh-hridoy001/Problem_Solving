@@ -1,6 +1,3 @@
-git add .
-git commit -m "solved new problem"
-git push
 
 const income = 40000 ;
 const height = 66 ;
