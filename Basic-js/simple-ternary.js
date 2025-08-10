@@ -11,7 +11,8 @@ also, write it using ternary operator.
 
  */
 
-const num1 = 80 ;
+// Way One -----------
+const num1 = 90 ;
 const num2 = 85 ;
 
 if (num1 > num2){
@@ -21,3 +22,6 @@ if (num1 > num2){
     console.log(num1 + num2) ;
 }
 
+// Ternary Operation,,,,,,,,WAY TWO------------
+
+(num1 > num2) ? console.log(num1*2) : console.log(num1 + num2) 

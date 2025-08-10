@@ -1,4 +1,6 @@
-const weight = 20 ;
-const height = 1.7 ;
+if (num1 > num2){
+//     console.log(num1*2)
 
-const BMI = (weight /  (height**2)) ;
+// }else{
+//     console.log(num1 + num2) ;
+// }
