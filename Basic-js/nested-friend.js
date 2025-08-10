@@ -18,7 +18,20 @@ git push
 
 
 // define a variable :
-const mark = 90 ;
 
-// Use nested if else :
+const myMark = 90 ;
+const friendMark = 75 ;
 
+if (myMark >= 80){
+    if (friendMark >= 80){
+        console.log("Go for a launch.")
+    }else if (friendMark <80 && friendMark >=60 ){
+        console.log("Good luck next time.")
+    }else if (friendMark <60 && friendMark >= 40){
+        console.log("Massage Unseen.")
+    }else if (friendMark <40 ){
+        console.log("Block Your Friend.")
+    }
+}else{
+    cconsole.log("Go to Home Sleep and Act Sad.")
+}
