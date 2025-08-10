@@ -10,6 +10,7 @@ Ticket fare Calculator
 const isChildren = false ;
 const isStudent = true ;
 const isSenior = true ;
+const ticket = 800 ;
 
 if (isChildren){
     console.log("Free . No ticket needed.")
