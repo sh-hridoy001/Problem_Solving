@@ -1,5 +1,3 @@
-// home works 
-
 /***
 
 Free Drinks
@@ -15,3 +13,7 @@ if (buingCost >= 500){
 }
 
 // lets done it using ternary conditon system
+//        ?             : 
+
+const BuingCost = 400 ;
+BuingCost >= 500 ? console.log("Got a free coke.") : console.log("Buy a coke , 30tk") 
