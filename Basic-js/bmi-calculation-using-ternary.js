@@ -43,7 +43,7 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 
 
 // Define the variable :
-const weight = 20 ;
+const weight = 58 ;
 const height = 1.7 ;
 
 const BMI = (weight /  (height**2)) ;
