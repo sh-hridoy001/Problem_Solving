@@ -11,9 +11,9 @@ Note:
 use nested if-else-if-else
 */
 
-git add .
-git commit -m "Added new file"
-git push
+// git add .
+// git commit -m "Added new file"
+// git push
 
 
 
