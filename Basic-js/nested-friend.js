@@ -10,3 +10,15 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+
+git add .
+git commit -m "Added new file"
+git push
+
+
+
+// define a variable :
+const mark = 90 ;
+
+// Use nested if else :
+
