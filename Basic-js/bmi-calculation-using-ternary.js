@@ -34,7 +34,6 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 // ternary operation   :
 //           ?             :             ;
 
-
 // Done it just for our operation ; OPTIONAL .
 
 // BMI >= 25 && BMI <= 29.9 ? console.log("You are overweight.") : console.log("You are obese.")
