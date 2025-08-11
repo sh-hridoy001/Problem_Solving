@@ -22,4 +22,3 @@ console.log(mixArray)
 console.log(mixArray.length)
 console.log(mixArray[4])
 
-// 
