@@ -9,4 +9,8 @@ display the final array as output
 
  */
 
-const NAME = ["Australlia", "Kaptai", "Cox's Bazar"];
+const turPlace = ["Australlia", "Kaptai", "Cox's Bazar"];
+console.log(turPlace)
+
+turPlace.push("Maldip", "Sundorbon")
+console.log(turPlace)
