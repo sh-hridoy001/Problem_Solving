@@ -12,3 +12,26 @@ console.log(num)
 
 num.push(145,454,5456)
 console.log(num)
+
+
+
+// Now we wil see how to remove last element or value from a array ------- SYNTAX-- variable.pop() -------
+
+const numOne = [1545, 45, 45, 45125, 45, 4545] ;
+numOne.pop()
+console.log(numOne)
+
+numOne.pop()
+console.log(numOne)
+
+numOne.pop()
+console.log(numOne)
+
+numOne.pop()
+console.log(numOne)
+
+numOne.pop()
+console.log(numOne)
+
+numOne.pop()
+console.log(numOne)
