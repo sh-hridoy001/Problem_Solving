@@ -13,6 +13,7 @@ const isSenior = true ;
 const ticket = 800 ;
 
 // Conditional operation
+
 if (isChildren){
     console.log("Free . No ticket needed.")
 }else if (isStudent){
