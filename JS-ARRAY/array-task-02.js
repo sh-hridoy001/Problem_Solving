@@ -1,19 +1,12 @@
 /**
- * 4. Checking if it's an Array
-Instructions:
+ * 
+ * 2. Add or remove elements
+Declare an array of 3 tourist destinations
+Add a new tourist destination to your tourist array
+Add two more to your array
+Remove the last tourist destination you have added
+display the final array as output
 
-Create different variables, each containing either an array or a non-array value.
-
-Now use isArray to check if each variable is an array.
-
-Print a message to the console indicating whether each variable is an array or not.
  */
 
-const Name = [123,4561,135156] ;
-console.log(Array.isArray(Name))
-
-const num = "Sazzad Hossain Hridoy" ;
-const Group = ['Science', 'Commerce', 'Arts'];
-
-console.log(Array.isArray(num))
-console.log(Array.isArray(Group))
+const NAME = ["Australlia", "Kaptai", "Cox's Bazar"];
