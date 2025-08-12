@@ -13,3 +13,4 @@ console.log(numbers.length)
 // index shuru hoy 0 theke .....
 
 console.log(numbers[2])
+console.log(number[3])
