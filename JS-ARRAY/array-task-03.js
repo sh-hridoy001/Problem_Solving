@@ -16,3 +16,4 @@ console.log(Name.includes("Hridoy UI book"))
 // acces the last element
 console.log(Name[2])
 
+console.log(Name[0])
