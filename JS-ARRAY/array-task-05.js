@@ -16,6 +16,7 @@ const cLass = ["1st Semester", "2nd Semester", "3rd Semester"] ;
 // console.log(Name.join('+'))
 // console.log(Name.join(' | '))
 
+
 console.log(Name.concat(cLass))
 
 
