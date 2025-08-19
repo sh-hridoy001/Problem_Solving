@@ -11,3 +11,4 @@ if (income >= 35000 && height >= 66 && weight >=60 ) {
 } else {
     console.log("You are disqualified")
 }
+
