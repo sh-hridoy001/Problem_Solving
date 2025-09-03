@@ -15,4 +15,7 @@ for (let n = 1 ; n<= 10 ; n++){
 
 let Num = 9 ;
 let n = 1 ;
-while
+while (n<=10){
+    console.log("9"," * ", n ,"=", num*n)
+    n++ ;
+}
