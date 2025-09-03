@@ -3,7 +3,7 @@
 Generate a multiplication table for number 9
 
  */
-// // Using for loops :
+// Using for loops :
 
 let num = 9 ;
 
