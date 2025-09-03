@@ -14,4 +14,5 @@ for (let n = 1 ; n<= 10 ; n++){
 //using while loops :
 
 let Num = 9 ;
-let
+let n = 1 ;
+while
