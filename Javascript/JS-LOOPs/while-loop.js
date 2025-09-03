@@ -4,8 +4,8 @@ while(num <= 5){
     num = num + 1;
 }
 
-let number = 0 ;
-while (number <= 10){
-    console.log(number);
-    number = number + 2 ;
-}
+// let number = 0 ;
+// while (number <= 10){
+//     console.log(number);
+//     number = number + 2 ;
+// }
