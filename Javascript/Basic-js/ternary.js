@@ -13,4 +13,4 @@ const age = 20 ;
 //     console.log("Get out from here. You are under 18.")
 // }
 
-age >= 18 ? console.log("YOU CAN VOTE") : console.log("SORRY , YOU ARE NOT ALLOW") 
+age >= 18 ? console.log("YOU CAN VOTE") : console.log("SORRY , YOU ARE NOT ALLOW") ;
