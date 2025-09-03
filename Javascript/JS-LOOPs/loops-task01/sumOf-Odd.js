@@ -42,6 +42,14 @@ for (let n = 50 ; n<=84 ; n = n + 2){
 }
 console.log("Sum of the even num : ",add)
 
+//optional :
+let summ = 0;
 
-// let num = 50 ;
-// num %2==0 ? console.log("Even") : console.log("Odd") 
+for (let num = 51; num <= 85; num++) {
+    if (num % 2 === 0) {     
+        console.log(num);     
+        summ = summ + num;       
+    }
+}
+
+console.log("Sum of even numbers from 51 to 85:", sum);
