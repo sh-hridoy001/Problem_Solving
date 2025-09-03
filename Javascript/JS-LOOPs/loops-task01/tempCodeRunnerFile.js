@@ -1,6 +1,5 @@
-//for loops :
-// for (let n = 51 ;
-//      n <= 85 ;
-//      n = n + 2){
-//     console.log(n)
+let num = 9 ;
+
+// for (let n = 1 ; n<= 10 ; n++){
+//     console.log("9"," * ", n ,"=", num*n)
 // }
