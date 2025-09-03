@@ -32,7 +32,14 @@ Find all the even numbers from 78 to 98.
 
 //Using for loops
 
-for(let num = 78 ; num<=98 ; num =num + 2 ){
-    console.log(num)
-}
+// for(let num = 78 ; num<=98 ; num =num + 2 ){
+//     console.log(num)
+// }
 
+//Using WHile loops :
+
+let n = 78 ;
+while(n<=98){
+    console.log(n);
+    n = n+2 ;
+}
