@@ -1,5 +1,7 @@
 # Problem Solving 💻
-This repository contains C++ solutions to problems from multiple online judges and competitive programming platforms. Focused on algorithms, data structures, and efficient coding practices.
+Welcome to my **Problem Solving Repository**!  
+Here you will find solutions to various coding problems using **JavaScript, Python, C, and C++**.  
+This repo is dedicated to improving programming skills and sharing solutions for learning purposes.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/<your-username>/<repo-name>)
 ![GitHub stars](https://img.shields.io/github/stars/<your-username>/<repo-name>?style=social)
@@ -7,9 +9,7 @@ This repository contains C++ solutions to problems from multiple online judges a
 ![GitHub issues](https://img.shields.io/github/issues/<your-username>/<repo-name>)
 ![GitHub language count](https://img.shields.io/github/languages/count/<your-username>/<repo-name>)
 
-Welcome to my **Problem Solving Repository**!  
-Here you will find solutions to various coding problems using **JavaScript, Python, C, and C++**.  
-This repo is dedicated to improving programming skills and sharing solutions for learning purposes.
+
 
 ---
 
