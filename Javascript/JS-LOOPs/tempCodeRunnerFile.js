@@ -1,5 +1,6 @@
-let number = 0 ;
-// while (number <= 10){
-//     console.log(number);
-//     number = number + 2 ;
+for (let n =0 ; n <= 10 ; n++){
+//     console.log(n)
+//     if (n >5){
+//         break
+//     }
 // }
