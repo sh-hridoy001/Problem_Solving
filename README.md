@@ -33,5 +33,28 @@ This repo is dedicated to improving programming skills and sharing solutions for
 
 ---
 
-## 🔹 Repository Structure
+
+## 🔹 How to Use
+1. Choose a language folder.  
+2. Open the file of the problem you want to study.  
+3. Understand the logic and try to run it yourself.  
+4. Feel free to suggest improvements or report issues.  
+
+---
+
+## 🔹 Live Demos
+Some **JavaScript problems** may have live demos.  
+[Click here to see live demos](https://example.com)  
+
+---
+
+## 🔹 Future Plans
+- Add more problems from **Codeforces, LeetCode, HackerRank**.  
+- Include **detailed explanations** for complex problems.  
+- Add **algorithm visualizations** in JavaScript.  
+
+---
+
+⭐ If you find this repository helpful, don’t forget to **star** it!
+
 
