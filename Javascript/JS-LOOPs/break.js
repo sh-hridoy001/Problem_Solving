@@ -1,12 +1,13 @@
 
-// for (let n =0 ; n <= 10 ; n++){
-//     console.log(n)
-//     if (n >5){
-//         break
-//     }
-// }
+for (let n =0 ; n <= 10 ; n++){
+    console.log(n)
+    if (n >5){
+        break
+    }
+}
 
 // using while loops :
+console.log("While loop  : ")
 
 let N = 70 ;
 
