@@ -1,14 +1,14 @@
 //while loop----------
 
-// let num = 0 ;
-// while (num <= 50 ){
-//     if (num % 5 !== 0){
-//         continue ;
-//     }
-//     console.log(num);
-//     num ++ ;
+let num = 0 ;
+while (num <= 20 ){
+    num ++ ;
+    if (num % 2 == 0){
+        continue ;
+    }
+    console.log(num);
     
-// }
+}
 
 
 //for loop :
@@ -19,3 +19,7 @@ for (let n = 0; n < 20 ; n++){
     }
     console.log(n)
 }
+
+
+//  continue : skip the number .
+// break : dont run over the number .
