@@ -4,6 +4,7 @@ console.log(district.length);
 console.log(district[1]);
 district[2] ="e"; //that's not possible in string .
 // string is immutable :
+// string can define using ,  [ '', " ", ` ` ]
 
 // string behaves like Array. But main deffirence between array and string is, array er value change kora jay. but string er value change kora jay na. 
 
