@@ -12,9 +12,11 @@
 
 let Name = "Sazzad" ;
 let Naam = "sazzad" ;
+// Naam = "Sazzad"; Its also possible
+// another way 
 
-if (Name === Naam){
-    console.log("Two name are same .");
+if (Name.toLowerCase() === Naam.toLowerCase()){
+    console.log("Two names are same .");
 }else{
-    console.log("Not, two name aint same .");
+    console.log("Not, two names aint same .");
 }
