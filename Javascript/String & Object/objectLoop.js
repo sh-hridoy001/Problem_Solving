@@ -8,12 +8,18 @@ const mobile = {
     display: '6 inch.'
 }
 
-// " for of " is use for Array. And for in use for String :
+// // " for of " is use for Array. And for in use for String :
 
 for (const property in mobile){
     console.log(property);
     console.log(mobile[property]);
 }
 
-// another way to looping a string .
-const keys
+// // another way to looping a string .
+// const key = Object.keys(mobile) //it is converting string to array.
+// console.log(key)
+
+// for (const Property of key){
+//     console.log(Property, " : ", mobile[Property])
+// }
+
