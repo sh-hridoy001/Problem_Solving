@@ -7,8 +7,8 @@ const identity = {
 }
 
 // all property output korar program :
-const keys = Object.keys(identity);
-console.log(keys)
+const key = Object.keys(identity);
+console.log(key)
 
 // all value output :
 const value = Object.values(identity);
