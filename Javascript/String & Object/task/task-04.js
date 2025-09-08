@@ -9,6 +9,6 @@ let student = {
 };
 
 const keys =Object.keys(student) ;
-console.log(keys);
+// console.log(keys);
 
 console.log(keys.length)
