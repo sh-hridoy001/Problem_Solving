@@ -2,7 +2,7 @@
 // square -----
 
 function square(n){
-    squared_value = n * n ;
+    const squared_value = n * n ;
     console.log('Square of ',n , 'is ', squared_value);
 }
 
