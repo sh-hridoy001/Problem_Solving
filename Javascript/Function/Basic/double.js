@@ -1,6 +1,6 @@
 // double a number
 function doubleIt(n){
-    double = n * 2 ;
+    const double = n * 2 ;
     console.log(double);
 }
 
