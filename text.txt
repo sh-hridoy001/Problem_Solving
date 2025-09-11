@@ -1,0 +1,37 @@
+Added solution for [problem name]
+
+Add [problem name] JavaScript implementation
+
+Initial commit for [problem name] JS solution
+
+Added new JS file for [topic/problem]
+
+মৌলিক update / bug fix / improvement করলে:
+
+Updated [problem name] solution with optimized logic
+
+Fixed bug in [problem name] JS code
+
+Refactored [problem name] function
+
+Improved readability of [problem name] code
+
+Updated JS function for [problem/topic]
+
+একাধিক small updates করলে:
+
+Minor updates to JS solutions
+
+Updated multiple JS problem solutions
+
+Code improvements in several JS files
+
+General / casual style (যদি শুধু personal repo থাকে):
+
+Added/Updated JS file
+
+Solved another JS problem
+
+Updated solution for 
+
+Add variousPorams JavaScript implementation
