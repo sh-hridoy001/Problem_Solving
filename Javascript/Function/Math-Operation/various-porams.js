@@ -11,3 +11,4 @@ function evenSizedstr(str){
 }
 
 evenSizedstr('Chittagong');
+evenSizedstr('Dhaka');
