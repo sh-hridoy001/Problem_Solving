@@ -13,4 +13,5 @@ even(5);
 even(14);
 even(8);
 even(24);
-// git add Javascript/function/Math-Operation/evenOdd.js
+// git add Javascript/function/Math-Operation/evenOdd.js    
+// git add    .                    
