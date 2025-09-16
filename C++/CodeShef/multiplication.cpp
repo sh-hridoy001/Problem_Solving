@@ -4,8 +4,7 @@ using namespace std;
 
 int main()
 {
-  cout << 7 << " " << 3;
-//   cout << 3 + 4 << " and " << 3;
+  // cout << 8 * 9 << endl;
+  cout << (100 + 200) * 2 << endl;
   return 0;
 }
-
