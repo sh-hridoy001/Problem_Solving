@@ -1,10 +1,7 @@
-// double a number
-function doubleIt(n){
-    const double = n * 2 ;
-    console.log(double);
+
+function double(n){
+    const Double = n*n ;
+    console.log(Double)
 }
 
-doubleIt(5);
-doubleIt(25);
-doubleIt(47);
-doubleIt(8);
+double(5)
