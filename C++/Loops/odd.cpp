@@ -12,3 +12,16 @@ int main()
     }
   return 0;
 }
+
+/// 2nd option -------------
+// author: Sazzad
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    for(int i = 1 ; i <= 99 ; i = i + 2){
+        cout<< i << " " ;
+    }
+  return 0;
+}
