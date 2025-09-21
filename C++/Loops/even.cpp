@@ -13,3 +13,18 @@ int main()
     }
   return 0;
 }
+
+
+// 2nd Method to find out the all EVEN number from 1 to 100 -----------------
+
+// author: Sazzad
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    for(int i = 2 ; i<= 100 ; i= i+ 2){
+        cout<< i << " ";
+    }
+  return 0;
+}
