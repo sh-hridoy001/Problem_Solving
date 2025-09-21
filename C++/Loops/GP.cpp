@@ -1,4 +1,4 @@
-// author: Sazzad
+// print the series GP:  1, 2, 4, 8, 16, ,,,,,,
 #include <bits/stdc++.h>
 using namespace std;
 
