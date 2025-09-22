@@ -12,10 +12,8 @@ int main()
             break ;
         }
     }
-    if(flag == true){
-        cout<< "Prime Number";
-    }else{
-        cout<<"Composite Number";
-    }
+    if(n == 1){cout<<"Neither prime nor composite";}
+    else if(flag == true){cout<< "Prime Number";}
+    else{cout<<"Composite Number";}
   return 0;
 }
