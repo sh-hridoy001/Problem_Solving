@@ -12,7 +12,6 @@ int main()
         rev = rev*10 ;
         rev = rev + ld ;
         n = n/10 ;
-        i++ ;
     }
     cout<< rev ;
   return 0;
