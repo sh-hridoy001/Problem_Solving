@@ -10,7 +10,7 @@ int main() {
     printf("Character: %c\n", b);
     printf("Float: %.2f\n", c);
     printf("Double: %.4lf\n", d);
-    printf("Integer: %d\n", a);
+
 
     return 0;
 }
