@@ -4,9 +4,12 @@ using namespace std;
 
 int main()
 {
-    int m ; cout<< "Enter m :"; cin>> m ;
-    for(int i =1 ; i<=m ; i++){
-        cout<< "*****" <<endl;
+    int n ; cout<< "Enter N: "; cin>> n ;
+    for(int i =1 ; i<=n ; i++){
+        for(int x = 1; x<=n ; x++){
+            cout<< "* " ;
+        }
+        cout<<endl ;
     }
   return 0;
 }
