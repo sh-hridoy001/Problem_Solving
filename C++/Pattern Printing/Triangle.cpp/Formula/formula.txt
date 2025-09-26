@@ -1,0 +1,8 @@
+
+Triangle -----> j<=i 
+
+Ulta Triangle -----> j<= n-i+1 
+
+4-43-432-4321 --------> n-j+1 
+
+ODD Triangle------> 2*n-1 
