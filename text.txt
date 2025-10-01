@@ -19,7 +19,6 @@ Fixed bug in [problem name] JS code
 
 Refactored [problem name] function
 
-Improved readability of [problem name] code
 
 Updated JS function for [problem/topic]
 
