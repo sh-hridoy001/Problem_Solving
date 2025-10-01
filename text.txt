@@ -32,10 +32,8 @@ Code improvements in several JS files
 
 General / casual style (যদি শুধু personal repo থাকে):
 
-Added/Updated JS file
 
 Solved another JS problem
 
-Updated solution for 
 
 Add variousPorams JavaScript implementation
