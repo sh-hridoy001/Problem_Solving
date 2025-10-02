@@ -2,19 +2,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    long long a;
-    cin >> a;
-    long long b;
-    cin >> b;
-    long long c;
-    cin >> c;
-    long long d;
-    cin >> d;
+int main() {
+    long long a, b, c, d;
+    cin >> a >> b >> c >> d;
+    
+    a %= 100;
+    b %= 100;
+    c %= 100;
+    d %= 100;
 
-    long long multiplication = a * b * c * d;
-    int last_digit = multiplication % 100;
-    cout << last_digit;
+    long long result = (((a * b) % 100 * c) % 100 * d) % 100;
+
+    cout << result << endl;
     return 0;
 }
