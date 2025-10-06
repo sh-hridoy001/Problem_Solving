@@ -3,37 +3,8 @@ git add .
 git commit -m "added"
 git push
 
-Added solution for [problem name]
+Minor updates to JS solutions
 
 Add [problem name] JavaScript implementation
 
-Initial commit for [problem name] JS solution
 
-Added new JS file for [topic/problem]
-
-মৌলিক update / bug fix / improvement করলে:
-
-Updated [problem name] solution with optimized logic
-
-Fixed bug in [problem name] JS code
-
-Refactored [problem name] function
-
-
-Updated JS function for [problem/topic]
-
-একাধিক small updates করলে:
-
-Minor updates to JS solutions
-
-Updated multiple JS problem solutions
-
-Code improvements in several JS files
-
-General / casual style (যদি শুধু personal repo থাকে):
-
-
-Solved another JS problem
-
-
-Add variousPorams JavaScript implementation
