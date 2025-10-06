@@ -14,10 +14,11 @@ This repo is dedicated to improving programming skills and sharing solutions for
 ---
 
 ## 🔹 Languages Used
-- **JavaScript** ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-- **Python** ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
 - **C** ![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white)
 - **C++** ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white)
+- **JavaScript** ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+- **Python** ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+
 
 ---
 
@@ -42,11 +43,6 @@ This repo is dedicated to improving programming skills and sharing solutions for
 
 ---
 
-## 🔹 Live Demos
-Some **JavaScript problems** may have live demos.  
-[Click here to see live demos](https://example.com)  
-
----
 
 ## 🔹 Future Plans
 - Add more problems from **Codeforces, LeetCode, HackerRank**.  
