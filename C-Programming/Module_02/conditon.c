@@ -10,11 +10,11 @@ int main()
     }
     else if (taka >= 50)
     {
-        printf("Fuska khabo. Taka beshi nai.\n");
+        printf("Fuchka khabo. Taka beshi nai.\n");
     }
     else
     {
-        printf("Kichu khabo na. We are goribs.. (so sad)");
+        printf("Kichu khabo na. We are goribs.. (so sad)\n");
     }
     return 0;
 }
