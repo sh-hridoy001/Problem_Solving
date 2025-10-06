@@ -1,15 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
-    int tk ; printf("Enter your balance : ") ;
-    scanf("%d", &tk);
-
-    if(tk >=100){
-        printf("Cholo coffee khai.. \n");
-    }else if (tk >= 80){
-        printf("Cholo special ca khai asi. \n");
+    int a;
+    printf("Enter how many tk = " ); scanf("%d", &a) ;
+    if(a>=100){
+        printf("Cholo Burger Khabo.\n") ;
     }else{
-        printf("Tk egula joma koro ,, 80+ tk hoile tokhon kichu ekta khabo.. \n") ;
+        printf("Pore khabo tk nai .\n") ;
     }
-
 }
