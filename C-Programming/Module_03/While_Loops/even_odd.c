@@ -10,10 +10,11 @@ int main()
     {
         if (i % 2 == 0)
         {
-            printf("%d - Even", i);
+            printf("%d - Even\n", i);
         }else{
-            printf("%d - Odd", i);
+            printf("%d - Odd\n", i);
         }
+        i++ ;
     }
 
     return 0;
