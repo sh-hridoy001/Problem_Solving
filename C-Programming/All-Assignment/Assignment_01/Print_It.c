@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello, world! I am learning C programming language. ^_^\n");
+    printf("Programming is fun and challenging. /\\/\\/\\ \n"); // backslace dite hole duita slace dite hobe.. must % er jonno o same ..
+    printf("I want to give my 100%% dedication to learn!\tI will succeed one day.\n");
+
+    return 0;
+}
