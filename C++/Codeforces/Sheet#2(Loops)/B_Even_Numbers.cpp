@@ -1,4 +1,3 @@
-// author: Sazzad
 #include <bits/stdc++.h>
 using namespace std;
 
