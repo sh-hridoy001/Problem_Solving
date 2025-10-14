@@ -1,14 +1,16 @@
 #include <stdio.h>
-
 int main()
 {
-    int n;
-    scanf("%d", &n);
-    while (n != 0)
-    {
-        printf("%d ", n%10);
-        n = n/10 ;
-    }
+    int num;
+    scanf("%d", &num);
 
+    while (num !=0 )
+    {
+        int last_num = num%10 ;
+        printf("%d ", last_num);
+        num = num/10 ;
+
+    }
+    
     return 0;
 }
