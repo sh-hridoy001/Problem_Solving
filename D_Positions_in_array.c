@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int n;
@@ -9,21 +8,12 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    long long int sum = 0;
     for (int i = 0; i < n; i++)
     {
-        sum += arr[i];
-    }
-    if (sum >= 0)
-    {
-        printf("%lld", sum);
-    }
-    else
-    {
-        printf("%lld", sum * -1);
+        if(arr[i]<=10){
+            printf("A[%d] = %d\n",i,arr[i]);
+        }
     }
 
     return 0;
 }
-
-/// not accepted in codeforces*
