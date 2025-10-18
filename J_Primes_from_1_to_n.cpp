@@ -6,10 +6,17 @@ int main()
 {
     int n;
     cin>> n;
-    for(int i=1;i<=n;i++){
-        if(i%1==0 && i%i==0){
-            continue;
-            cout<<i<<endl;
+    for(int i=2; i<=n; i++){
+
+        bool isPrime = true;
+        for(int j=2; j<i; j++){
+            if(i%j==0){
+                isPrime = false;
+                break; // break na korle hudai loop cholbe ,, jehetu amra jenei gechi its not a prime number..
+            }
+        }
+        if(isPrime){
+            cout<<i <<" " ;
         }
     }
   return 0;
