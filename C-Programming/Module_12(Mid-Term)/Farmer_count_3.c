@@ -13,7 +13,7 @@ int main()
         scanf("%d %d %d", &M1, &M2, &D);
         int total_M = M1 + M2;
         int total_day = (M1 * D) / total_M;
-        int day = (total_day - M2);
+        int day = (D - total_day);
         printf("%d\n", day);
     }
 
