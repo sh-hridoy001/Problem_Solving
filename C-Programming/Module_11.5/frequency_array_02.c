@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 int main()
 {
     int n;
@@ -9,22 +11,16 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-
-    int fre[6] = {0};
+    int count[6] = {0};
     for (int i = 0; i < n; i++)
     {
-        fre[arr[i]]++;
+        // i = 0 hole count er 0 number index++ koro, 1 hole 1 number index++ koro.....
+        count[arr[i]]++;
     }
-
 
     for (int i = 0; i < 6; i++)
     {
-        if(fre[i] == 0){
-            continue;
-        }else{
-        printf("%d\n", fre[i]);
-        }
+        printf("%d\n", count[i]);
     }
-
     return 0;
 }
