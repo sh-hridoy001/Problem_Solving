@@ -1,0 +1,1 @@
+{"name":"Local: J_Count_Letters","url":"e:\\ALL Langage Problem Solving\\Uncompleted_problem\\J_Count_Letters.c","tests":[{"id":1761446041848,"input":"aaabbc","output":"a : 3\nb : 2\nc : 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\Uncompleted_problem\\J_Count_Letters.c","group":"local","local":true}

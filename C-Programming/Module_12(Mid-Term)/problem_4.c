@@ -9,10 +9,10 @@ int main()
     int fre[26] = {0};
     for (int i = 0; str[i] != '\0'; i++)
     {
-        fre[str[i] - 'a']++;   // ✅ convert 'a'..'z' → 0..25
+        fre[str[i] - 'a']++;   
     }
 
-    for (int i = 0; i < 26; i++)   // ✅ only 0 to 25
+    for (int i = 0; i < 26; i++)  
     {
         if (fre[i] == 0)
         {
@@ -20,7 +20,7 @@ int main()
         }
         else
         {
-            printf("%c - %d\n", 'a' + i, fre[i]);  // ✅ convert index → letter
+            printf("%c - %d\n", 'a' + i, fre[i]);  
         }
     }
     return 0;
