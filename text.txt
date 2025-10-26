@@ -6,3 +6,6 @@ git push
 Minor updates to JS solutions
 
 Add [problem name] JavaScript implementation
+
+
+Array - smallest pair: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/I
