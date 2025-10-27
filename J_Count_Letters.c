@@ -3,7 +3,7 @@
 
 int main()
 {
-    char str[1000001]; // [10000000] dile vs code a error dey, eta 0 kom dichi.. 
+    char str[10000001]; // [10000000] dile vs code a error dey, eta 0 kom dichi.. 
     scanf("%s", str);
 
     int fre[26] = {0};
