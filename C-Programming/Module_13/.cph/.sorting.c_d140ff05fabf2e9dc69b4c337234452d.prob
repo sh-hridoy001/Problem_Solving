@@ -1,0 +1,1 @@
+{"name":"Local: sorting","url":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_13\\sorting.c","tests":[{"id":1762060303858,"input":"4\n6 5 4 3 ","output":"3 4 5 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_13\\sorting.c","group":"local","local":true}
