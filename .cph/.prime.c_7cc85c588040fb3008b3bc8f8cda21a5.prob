@@ -1,0 +1,1 @@
+{"name":"Local: prime","url":"e:\\ALL Langage Problem Solving\\prime.c","tests":[{"id":1762319673104,"input":"3\n2\n4\n8\n","output":"YES\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\prime.c","group":"local","local":true}
