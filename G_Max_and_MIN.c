@@ -1,25 +1,27 @@
 #include <stdio.h>
 #include <limits.h>
-
-void findMinMax(int arr[], int n)
+void findMinMax(int ar[], int x)
 {
-    int mx = INT_MIN;
     int mn = INT_MAX;
-    for (int i = 0; i < n; i++)
+    int mx = INT_MIN;
+
+    for (int i = 0; i < x; i++)
     {
-        if (arr[i] > mx)
+        if (ar[i] < mn)
         {
-            mx = arr[i];
+            mn = ar[i];
         }
-        if (arr[i] < mn)
+        else if (ar[i] > mx)
         {
-            mn = arr[i];
+            mx = ar[i];
         }
     }
     printf("%d %d", mn, mx);
 }
+
 int main()
 {
+
     int n;
     scanf("%d", &n);
     int arr[n];
