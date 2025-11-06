@@ -1,14 +1,13 @@
 #include <stdio.h>
-int func(int *p)
-{
-    *p = 20;
-}
 
+int func(int *p){
+
+    *p = 200;
+}
 int main()
 {
     int x = 10;
-    printf("%d\n", x);
     func(&x);
-    printf("%d", x);
+    printf("%d",x);
     return 0;
 }
