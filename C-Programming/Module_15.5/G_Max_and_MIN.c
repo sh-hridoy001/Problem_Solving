@@ -11,7 +11,7 @@ void findMinMax(int ar[], int x)
         {
             mn = ar[i];
         }
-        else if (ar[i] > mx)
+        if (ar[i] > mx)
         {
             mx = ar[i];
         }

@@ -1,0 +1,1 @@
+{"name":"Local: G_Max_and_MIN","url":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_15.5\\G_Max_and_MIN.c","tests":[{"id":1762420672954,"input":"5\n10 13 95 1 3","output":"1 95"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_15.5\\G_Max_and_MIN.c","group":"local","local":true}
