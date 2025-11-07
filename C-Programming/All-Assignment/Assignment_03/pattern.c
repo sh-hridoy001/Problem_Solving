@@ -2,6 +2,7 @@
 
 int main()
 {
+
     int n;
     scanf("%d", &n);
     int star = 1;
@@ -13,12 +14,19 @@ int main()
         }
         for (int j = 1; j <= star; j++)
         {
-            printf("*");
+            if (i % 2 == 0)
+            {
+                printf("-");
+            }
+            else
+            {
+                printf("#");
+            }
         }
         star += 2;
         printf("\n");
     }
-    for (int i = n; i >= 1; i--)
+    for (int i = n-1; i >= 1; i--)
     {
         for (int k = 1; k < n - i + 1; k++)
         {
@@ -26,9 +34,18 @@ int main()
         }
         for (int j = 1; j <= (2 * i - 1); j++)
         {
-            printf("*");
+            if (i % 2 == 0)
+            {
+                printf("-");
+            }
+            else
+            {
+                printf("#");
+            }
         }
         printf("\n");
     }
     return 0;
 }
+
+//accepted *
