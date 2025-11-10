@@ -5,20 +5,21 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    char str[n + 1];
-    scanf("%s", str);
+    getchar(); // for newline
 
+    char c;
     int fre[26] = {0};
+
     for (int i = 0; i < n; i++)
     {
-        fre[str[i] - 'a']++;
+        scanf("%c", &c);
+        fre[c - 'a']++;
     }
     for (int i = 0; i < 26; i++)
     {
-        while (fre[i] > 0)
+        while (fre[i]--)
         {
-            printf("%c", i + 'a');
-            fre[i]--;
+            putchar(i + 'a');
         }
     }
     return 0;
