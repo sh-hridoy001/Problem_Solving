@@ -1,0 +1,1 @@
+{"name":"Local: 1D_array","url":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_18\\1D_array.c","tests":[{"id":1763049108872,"input":"5\n1 2 3 4 5","output":"2 4 6 8 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_18\\1D_array.c","group":"local","local":true}
