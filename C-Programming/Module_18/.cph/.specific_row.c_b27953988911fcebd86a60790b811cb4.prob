@@ -1,0 +1,1 @@
+{"name":"Local: specific_row","url":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_18\\specific_row.c","tests":[{"id":1763124996627,"input":"2 3\n1 5 6 \n2 9 11\n1","output":"2 9 11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\C-Programming\\Module_18\\specific_row.c","group":"local","local":true}
