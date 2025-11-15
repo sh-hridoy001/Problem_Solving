@@ -18,8 +18,17 @@ int main() {
         stars += 2;
     }
 
-    // Print trunk
-    for(int i=)
+    for (int i = 1; i <= 5; i++)
+    {
+        for(int k=1; k<=5; k++){
+            printf(" ");
+        }
+        for (int j = 1; j <= N; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
 
     return 0;
 }
