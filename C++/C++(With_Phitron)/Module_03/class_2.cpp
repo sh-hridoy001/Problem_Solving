@@ -6,7 +6,7 @@ class Student
 public:
     char name[100];
     int roll;
-    float gpa;
+    double gpa;
 };
 
 int main()
