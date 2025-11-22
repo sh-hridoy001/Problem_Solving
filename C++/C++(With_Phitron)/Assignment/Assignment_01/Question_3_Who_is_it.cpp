@@ -21,15 +21,12 @@ int main()
         cin >> x.id >> x.name >> x.section >> x.total_mark;
         cin >> y.id >> y.name >> y.section >> y.total_mark;
         cin >> z.id >> z.name >> z.section >> z.total_mark;
-
         Student best = x;
-        if (y.total_mark > best.total_mark ||
-            (y.total_mark == best.total_mark && y.id < best.id))
+        if (y.total_mark > best.total_mark || (y.total_mark == best.total_mark && y.id < best.id))
         {
             best = y;
         }
-        if (z.total_mark > best.total_mark ||
-            (z.total_mark == best.total_mark && z.id < best.id))
+        else if (z.total_mark > best.total_mark || (z.total_mark == best.total_mark && z.id < best.id))
         {
             best = z;
         }
