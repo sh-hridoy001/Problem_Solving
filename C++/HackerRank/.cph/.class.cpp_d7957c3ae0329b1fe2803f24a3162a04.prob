@@ -1,0 +1,1 @@
+{"name":"Local: class","url":"e:\\ALL Langage Problem Solving\\C++\\HackerRank\\class.cpp","tests":[{"id":1764039177800,"input":"15\njohn\ncarmack\n10","output":"15\ncarmack, john\n10\n\n15,john,carmack,10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\C++\\HackerRank\\class.cpp","group":"local","local":true}
