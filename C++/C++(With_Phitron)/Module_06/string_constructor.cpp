@@ -10,12 +10,12 @@ int main()
 
     // string h("Hello Hridoy\n");
     // cout << h;
-    // string i("Hello Hridoy\n", 4);
-    // cout << i;
+    string i("Hello Hridoy\n", 4);
+    cout << i;
     // string x(h, 4);
     // cout << x;
-    string h(5, 'Z');
-    cout<<h ;
+    // string h(5, 'Z');
+    // cout<<h ;
 
     // string s("Hello world", 4);
     // cout<<s ;
