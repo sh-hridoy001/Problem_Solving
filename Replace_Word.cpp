@@ -13,7 +13,7 @@ int main()
         // cout << s << " " << x<<endl;
         int len = s.size();
         for(int i=0; i<len ; i++){
-            if(s[i]==x[i] && s[i+1]==x[i+2] && s[i+2]==)
+            // if(s[i]==x[i] && s[i+1]==x[i+2] && s[i+2]==)
         }
     }
 
