@@ -10,10 +10,12 @@ int main()
     {
         string s, x;
         cin >> s >> x;
-        // cout << s << " " << x<<endl;
-        int len = s.size();
-        for(int i=0; i<len ; i++){
-            // if(s[i]==x[i] && s[i+1]==x[i+2] && s[i+2]==)
+        int idx = s.find(x);
+        while (idx != -1)
+        {
+            
+            s.replace(idx, 5, "#");
+            idx = s.find(x, idx + 1);
         }
     }
 
