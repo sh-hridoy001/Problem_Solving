@@ -10,7 +10,14 @@ int main()
     {
         int n, m;
         cin >> n >> m;
-        
+        if (n - 1 >= m)
+        {
+            cout << "YES\n";
+        }
+        else
+        {
+            cout << "NO\n";
+        }
     }
     return 0;
 }
