@@ -10,18 +10,27 @@ int main()
     {
         int n, x, y;
         cin >> n >> x >> y;
-        if(x*2>y){
-            cout<<n*x<<endl;
-
-        }else{
-            // int earn = (n/2 - 1)*y;
-            if(n%2==0){
-                cout<<n/2*y<<endl;
-            }else{
-                n = n-1;
-                n = (n*y)+x ;
+        if (x * 2 >= y)
+        {
+            cout << n * x << endl;
+        }
+        else
+        {
+            if (n % 2 == 0)
+            {
+                cout << n / 2 * y << endl;
             }
-
+            else
+            {
+                if (n % 2 == 0)
+                {
+                    cout << (n/2) * y << endl;
+                }
+                else 
+                {
+                    cout << ((n - 1) / 2) * y + x << endl;
+                }
+            }
         }
     }
 
