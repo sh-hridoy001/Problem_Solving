@@ -1,0 +1,12 @@
+
+N = 1000 
+
+constant:         O(1)         ->   1
+Logarithmic:      O(logN)      ->   10
+Square Root:      O(sqrt(N))   ->   32
+Linear:           O(N)         ->   1000
+Linearithmic:     O(NlogN)     ->   10000
+Quardratic:       O(N*N)       ->   1000000
+
+
+
