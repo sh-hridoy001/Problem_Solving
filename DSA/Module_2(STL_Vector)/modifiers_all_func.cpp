@@ -17,17 +17,25 @@ int main()
     //     cout << v[i] << " ";
     // }
 
+
+
     // func - 1 : v.push_back() - Add an element to the end.
     v.push_back(6);           // assign to the last
     cout << v.back() << endl; // access the last element
+
+
 
     // func - 2 : v.pop_back() - Remove the last element.
     v.pop_back();             // remove the last element --
     cout << v.back() << endl; // access the last element
 
+
+
     // func - 3 : v.insert() - Insert elements at a specific position.
     v.insert(v.begin(), 8);
     cout << v.front() << endl;
+
+
 
     // func - 4 : v.erase() - Erase element from a specific position.
     v.erase(v.begin() + 2, v.begin() + 5);
@@ -37,12 +45,31 @@ int main()
     }
     cout << endl;
 
+
+
     // func - 5 : replace(v.begin(),v.end(),value,replace_value) - Replace all the value with replace_value. Not under a vector.
     vector<int> v2 = {1, 2, 6, 5, 6};
-    replace(v2.begin(), v2.end() - 1, 2, 10);  // jekhane jekhane 2 ache oikhane 10 hoye jabe
+    replace(v2.begin(), v2.end() - 1, 2, 10); // jekhane jekhane 2 ache oikhane 10 hoye jabe
     for (int i = 0; i < n; i++)
     {
         cout << v2[i] << " ";
     }
+    cout << endl;
+
+
+
+    // func - 6 : find(v.begin(),v.end(),V)  - Find the value V. Not under a vector.
+    auto iterator = find(v2.begin(), v.end(), 2); // iterator difine
+    if (iterator == v2.end())
+    {
+        cout << "NOT FOUND!";
+    }
+    else
+    {
+        cout << "FOUND";
+    }
+
+
+
     return 0;
 }
