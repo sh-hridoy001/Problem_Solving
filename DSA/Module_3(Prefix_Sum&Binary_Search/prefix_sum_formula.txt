@@ -2,4 +2,15 @@
 
 // 1 based index vector : vector<int> v(n+1)
 
-// 
+// binary searching step :
+    step 1 ; find mid , l , r declare 
+       while (i <= r)
+    if mid value == find_value 
+        tahole value feye gechi 
+        ----- ------- ------ -----
+    else if mid < find value 
+        tahole l k samne niye jete hobe
+        l = mid + 1;
+    else if (mid > find _value )
+        r = mid - 1;
+    
