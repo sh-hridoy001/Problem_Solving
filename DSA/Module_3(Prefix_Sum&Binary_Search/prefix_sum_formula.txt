@@ -1,0 +1,5 @@
+// prefix_sum formula : - pre_v[i] = pre_v[i-1]+v[i] ----
+
+// 1 based index vector : vector<int> v(n+1)
+
+// 
