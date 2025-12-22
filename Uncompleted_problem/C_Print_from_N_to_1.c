@@ -11,7 +11,6 @@ void printN(int n)
     {
         printf(" ");
     }
-
     printN(n - 1);
 }
 int main()
