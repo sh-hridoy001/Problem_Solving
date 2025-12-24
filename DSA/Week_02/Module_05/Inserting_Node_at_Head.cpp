@@ -13,11 +13,21 @@ public:
     }
 };
 
-int insert_newnode_at_head(Node *&head, int value)
+void insert_newnode_at_head(Node *&head, int value)
 {
     Node *newnode = new Node(value);
     newnode->next = head;
     head = newnode;
+}
+
+void printing_node(Node *head)
+{
+    Node *temp = head;
+    while (temp != NULL)
+    {
+        cout << temp->value << " ";
+        temp = temp->next;
+    }
 }
 
 int main()
@@ -30,13 +40,7 @@ int main()
     a->next = b;
 
     insert_newnode_at_head(head, 100);
-
-    Node *temp = head;
-    while (temp != NULL)
-    {
-        cout << temp->value << " ";
-        temp = temp->next;
-    }
-
+    insert_newnode_at_head(head, 1560);
+    printing_node(head);
     return 0;
 }
