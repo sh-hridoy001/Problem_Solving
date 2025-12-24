@@ -22,7 +22,7 @@ int main()
     // func 5 - v.empty() ------
     cout << v.empty()<<endl;
 
-    // func 5 - v.resize() ------
+    // func 5 - v.resize() ------- 
     v.resize(1200);  
     return 0;
 }
