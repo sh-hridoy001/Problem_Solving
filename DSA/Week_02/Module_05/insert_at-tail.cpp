@@ -16,6 +16,11 @@ public:
 void insert_node_at_tail(Node *&head, int value)
 {
     Node *newnode = new Node(value);
+    if (head == NULL)
+    {
+        head = newnode;
+        return;
+    }
     Node *temp = head;
     while (temp->next != NULL)
     {
