@@ -33,7 +33,7 @@ void print_linked_list(Node *head)
         cout << temp->value << " ";
         temp = temp->next;
     }
-}
+} 
 
 void reversed_print(Node*temp){
     if(temp==NULL){
