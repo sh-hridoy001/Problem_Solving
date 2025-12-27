@@ -29,7 +29,15 @@ void delete_at_head(Node *&head)
     head = head->next;
     delete delete_node;
 }
-
+void print_linked_list(Node *head)
+{
+    Node *temp = head;
+    while (temp != NULL)
+    {
+        cout << temp->value << " ";
+        temp = temp->next;
+    }
+}
 int main()
 {
     Node *head = NULL;
@@ -45,7 +53,7 @@ int main()
         }
         insert_at_tail(head, tail, val);
     }
-    delete_at_head(head) ;
-
+    delete_at_head(head);
+    print_linked_list(head);
     return 0;
 }
