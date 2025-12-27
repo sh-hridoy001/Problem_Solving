@@ -14,7 +14,7 @@ int main()
         {
             cout << "BRONZE\n";
         }
-        else if (a >= 5 && a <= 6)
+        else if (a > 3 && a <= 6)
         {
             cout << "SILVER\n";
         }
