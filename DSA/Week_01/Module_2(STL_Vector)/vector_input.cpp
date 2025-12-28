@@ -11,8 +11,13 @@ int main()
     {
         cin >> v[i];
     }
-    
-    // vector output -- -- -- 
+
+    for (int x : v)
+    {
+        cout << x << " ";
+    }
+    cout << endl;
+    // vector output -- -- --
     // for (int i = 0; i < n; i++)
     // {
     //     cout<< v[i]<<" ";
