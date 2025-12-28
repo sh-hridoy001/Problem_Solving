@@ -42,7 +42,7 @@ void insert_at_tail(Node *&head, Node *&tail, int value)
 void delete_at_any_pos(Node *&head, Node *&tail, int pos)
 {
     if (head == NULL)
-        return; // empty list
+        return;
 
     if (pos == 0)
     {
@@ -51,7 +51,7 @@ void delete_at_any_pos(Node *&head, Node *&tail, int pos)
         delete deletenode;
 
         if (head == NULL)
-            tail = NULL; // list empty
+            tail = NULL;
         return;
     }
 
@@ -59,12 +59,12 @@ void delete_at_any_pos(Node *&head, Node *&tail, int pos)
     for (int i = 1; i < pos; i++)
     {
         if (temp->next == NULL)
-            return; // invalid index
+            return;
         temp = temp->next;
     }
 
     if (temp->next == NULL)
-        return; // invalid index
+        return;
 
     Node *deletenode = temp->next;
     temp->next = temp->next->next;
