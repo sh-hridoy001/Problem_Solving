@@ -20,40 +20,10 @@ void insert_at_tail(Node *&head, Node *&tail, int value)
     {
         head = newnode;
         tail = newnode;
+        return;
     }
     tail->next = newnode;
     tail = tail->next;
-}
-
-void print_linked_list(Node *head)
-{
-    Node *temp = head;
-    while (temp != NULL)
-    {
-        cout << temp->value << " ";
-        temp = temp->next;
-    }
-}
-
-int find_max(Node *head)
-{
-    if (head == NULL)
-    {
-        return -1;
-    }
-
-    Node *temp = head;
-    int mx = head->value;
-
-    while (temp != NULL)
-    {
-        if (temp->value > mx)
-        {
-            mx = temp->value;
-        }
-        temp = temp->next;
-    }
-    return mx;
 }
 
 int main()
@@ -71,7 +41,17 @@ int main()
         }
         insert_at_tail(head, tail, val);
     }
-    find_max(head);
 
+    Node *temp = head;
+    int mx = INT_MIN, mn = INT_MAX;
+    while (temp != NULL)
+    {
+        mx = max(mx, temp->value);
+        mn = min(mn, temp->value);
+        temp = temp->next;
+    }
+    cout << mx - mn;
     return 0;
 }
+
+//accepted* 
