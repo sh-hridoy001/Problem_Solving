@@ -19,8 +19,7 @@ void insert_newnode_at_head(Node *&head, Node *&tail, int value)
     Node *newnode = new Node(value);
     if (head == NULL)
     {
-        head = newnode;
-        tail = newnode;
+        head = tail = newnode;
         return;
     }
     newnode->next = head;
@@ -41,8 +40,7 @@ void insert_at_tail(Node *&head, Node *&tail, int value)
 
 void delete_at_any_pos(Node *&head, Node *&tail, int pos)
 {
-    if (head == NULL)
-        return;
+    if (head == NULL) return;   // empty list
 
     if (pos == 0)
     {
@@ -50,21 +48,18 @@ void delete_at_any_pos(Node *&head, Node *&tail, int pos)
         head = head->next;
         delete deletenode;
 
-        if (head == NULL)
-            tail = NULL;
+        if (head == NULL) tail = NULL; // list empty
         return;
     }
 
     Node *temp = head;
     for (int i = 1; i < pos; i++)
     {
-        if (temp->next == NULL)
-            return;
+        if (temp->next == NULL) return; // invalid index
         temp = temp->next;
     }
 
-    if (temp->next == NULL)
-        return;
+    if (temp->next == NULL) return; // invalid index
 
     Node *deletenode = temp->next;
     temp->next = temp->next->next;
