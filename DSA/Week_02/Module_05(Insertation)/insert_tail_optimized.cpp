@@ -22,6 +22,7 @@ void insert_node_at_tail(Node *&head, Node *&tail, int value)
     {
         head = newnode;
         tail = newnode;
+        return;
     }
     // adding node at tail
     tail->next = newnode;
@@ -41,8 +42,8 @@ void printing_node(Node *head)
 int main()
 {
     Node *head = new Node(10);
-            // Node *head = NULL;
-            // Node *tail = NULL;
+    // Node *head = NULL;
+    // Node *tail = NULL;
     Node *a = new Node(20);
     Node *b = new Node(30);
     Node *tail = new Node(40);
@@ -52,8 +53,8 @@ int main()
     b->next = tail;
     insert_node_at_tail(head, tail, 50);
     insert_node_at_tail(head, tail, 60);
-           // insert_node_at_tail(head, tail, 60);
+    // insert_node_at_tail(head, tail, 60);
     printing_node(head);
-           // cout<<endl <<tail->value ;
+    // cout<<endl <<tail->value ;
     return 0;
 }
