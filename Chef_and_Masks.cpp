@@ -10,7 +10,7 @@ int main()
     {
         int a, b;
         cin >> a >> b;
-        if (a * 100 <= b * 10)
+        if (a * 100 >= b * 10)
         {
             cout << "Cloth\n";
         }
