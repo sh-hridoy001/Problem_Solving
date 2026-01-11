@@ -1,4 +1,4 @@
-// Author:- SH_Hridoy
+// Author :-  SH_Hridoy
 #include <bits/stdc++.h>
 using namespace std;
 
