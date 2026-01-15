@@ -15,6 +15,14 @@ public:
     }
 };
 
+int insert_at_head(Node *&head, int value)
+{
+    Node *newnode = new Node(value);
+    newnode->next = head;
+    head->prev = newnode;
+    head = newnode;
+}
+
 void print_forward(Node *head)
 {
     Node *temp = head;
@@ -40,13 +48,17 @@ int main()
 {
     Node *head = new Node(10);
     Node *a = new Node(20);
-    Node *b = new Node(30);
+    Node *tail = new Node(30);
 
     head->next = a;
     a->prev = head;
 
-    a->next = b;
-    b->prev = a;
+    a->next = tail;
+    tail->prev = a;
 
+    insert_at_head(head, 100);
+    insert_at_head(head, 200);
+    print_forward(head);
+    print_backword(tail);
     return 0;
 }
