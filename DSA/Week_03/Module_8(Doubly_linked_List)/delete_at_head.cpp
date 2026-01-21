@@ -15,16 +15,6 @@ public:
     }
 };
 
-void print_forward(Node *head)
-{
-    Node *temp = head;
-    while (temp != NULL)
-    {
-        cout << temp->value << " ";
-        temp = temp->next;
-    }
-    cout << endl;
-}
 void delete_at_head(Node *&head, Node *&tail)
 {
     Node *deleteNode = head;
@@ -38,6 +28,16 @@ void delete_at_head(Node *&head, Node *&tail)
     head->prev = NULL;
 }
 
+void print_forward(Node *head)
+{
+    Node *temp = head;
+    while (temp != NULL)
+    {
+        cout << temp->value << " ";
+        temp = temp->next;
+    }
+    cout << endl;
+}
 int main()
 {
     Node *head = new Node(30);
