@@ -22,9 +22,7 @@ void insert_at_any_pos(Node *&head, int index, int value)
     for (int i = 1; i < index; i++)
     {
         temp = temp->next;
-    }git add .
-git commit -m "added"
-git push
+    }
     newnode->next = temp->next;
     temp->next->prev = newnode;
     temp->next = newnode;
