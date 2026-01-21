@@ -30,6 +30,18 @@ void insert_at_tail(Node *&head, int value, Node *&tail)
     tail = newnode;
 }
 
+void sort(Node *head)
+{
+    Node *temp = head;
+    while (temp!=NULL)
+    {
+        if(temp->next > temp->next->next){
+            
+        }
+    }
+    
+}
+
 int main()
 {
     Node *head = NULL;
