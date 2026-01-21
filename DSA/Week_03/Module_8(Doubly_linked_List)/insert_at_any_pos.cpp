@@ -15,11 +15,21 @@ public:
     }
 };
 
-void insert_at_any_pos(Node*&head, int value){
-    Node * newnode = new Node(value);
-
+void insert_at_any_pos(Node *&head, int index, int value)
+{
+    Node *newnode = new Node(value);
+    Node *temp = head;
+    for (int i = 1; i < index; i++)
+    {
+        temp = temp->next;
+    }git add .
+git commit -m "added"
+git push
+    newnode->next = temp->next;
+    temp->next->prev = newnode;
+    temp->next = newnode;
+    newnode->prev = temp;
 }
-
 
 void print_forward(Node *head)
 {
@@ -46,16 +56,18 @@ int main()
 {
     Node *head = new Node(10);
     Node *a = new Node(20);
-    Node *b = new Node(30);
+    Node *tail = new Node(70);
 
     head->next = a;
     a->prev = head;
-    a->next = b;
-    b->prev = a;
+    a->next = tail;
+    tail->prev = a;
 
-    insert_at_any_pos(head,40);
+    insert_at_any_pos(head, 2, 40);
+    insert_at_any_pos(head, 3, 50);
 
     print_forward(head);
+    print_backword(tail);
 
     return 0;
 }
