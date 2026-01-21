@@ -63,6 +63,7 @@ int main()
 
     insert_at_any_pos(head, 2, 40);
     insert_at_any_pos(head, 3, 50);
+    insert_at_any_pos(head, 1, 800);
 
     print_forward(head);
     print_backword(tail);
