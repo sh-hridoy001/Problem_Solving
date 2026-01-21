@@ -1,0 +1,42 @@
+
+------------    insert at Head    ----------------
+
+int insert_at_head(Node *&head, int value)
+{
+    Node *newnode = new Node(value);
+    newnode->next = head;
+    head->prev = newnode;
+    head = newnode;
+}
+
+
+------------  insert at tail   ----------------
+
+int insert_at_tail(Node *&head, int value, Node *&tail)
+{
+    Node *newnode = new Node(value);
+    tail->next = newnode;
+    newnode->prev = tail;
+    tail = newnode;
+    if (head == NULL)
+    {
+        head = newnode;
+        tail = newnode;
+    }
+}
+
+------------    insert at any pos    ----------------
+
+void insert_at_any_pos(Node *&head, int index, int value)
+{
+    Node *newnode = new Node(value);
+    Node *temp = head;
+    for (int i = 1; i < index; i++)
+    {
+        temp = temp->next;
+    }
+    newnode->next = temp->next;
+    temp->next->prev = newnode;
+    temp->next = newnode;
+    newnode->prev = temp;
+}
