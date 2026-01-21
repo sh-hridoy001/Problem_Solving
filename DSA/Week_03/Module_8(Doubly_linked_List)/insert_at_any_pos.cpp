@@ -15,6 +15,12 @@ public:
     }
 };
 
+void insert_at_any_pos(Node*&head, int value){
+    Node * newnode = new Node(value);
+
+}
+
+
 void print_forward(Node *head)
 {
     Node *temp = head;
@@ -47,6 +53,9 @@ int main()
     a->next = b;
     b->prev = a;
 
+    insert_at_any_pos(head,40);
+
+    print_forward(head);
 
     return 0;
 }
