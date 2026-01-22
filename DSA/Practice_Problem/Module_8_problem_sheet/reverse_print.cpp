@@ -15,6 +15,7 @@ public:
     }
 };
 
+
 void insert_at_tail(Node *&head, int value, Node *&tail)
 {
     Node *newnode = new Node(value);

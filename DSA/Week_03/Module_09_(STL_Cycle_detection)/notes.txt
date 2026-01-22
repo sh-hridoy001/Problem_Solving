@@ -1,0 +1,12 @@
+    
+    
+-- -- -- -- -- -- -- insert -- -- -- -- --
+l1.insert(next(l1.begin(), 3), l2.begin(), l2.end());
+
+-- -- -- -- -- -- -- delete -- -- -- -- --
+    l.erase(next(l.begin(), 2), next(l.begin(), 5));
+
+-- -- -- -- -- -- -- replace -- -- -- -- --
+
+    replace(l.begin(), l.end(), 20, 100);
+
