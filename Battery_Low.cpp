@@ -10,7 +10,14 @@ int main()
     {
         int n;
         cin >> n;
-        
+        if (n >= 16)
+        {
+            cout << "No\n";
+        }
+        else
+        {
+            cout << "Yes\n";
+        }
     }
 
     return 0;
