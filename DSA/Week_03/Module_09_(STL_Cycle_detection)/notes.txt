@@ -1,12 +1,24 @@
-    
+
+
+
     
 -- -- -- -- -- -- -- insert -- -- -- -- --
 l1.insert(next(l1.begin(), 3), l2.begin(), l2.end());
 
+
 -- -- -- -- -- -- -- delete -- -- -- -- --
-    l.erase(next(l.begin(), 2), next(l.begin(), 5));
+l.erase(next(l.begin(), 2), next(l.begin(), 5));
+
 
 -- -- -- -- -- -- -- replace -- -- -- -- --
+( replace every 20 to 100, where are the value )
+replace(l.begin(), l.end(), 20, 100);
 
-    replace(l.begin(), l.end(), 20, 100);
+
+-- -- -- -- -- -- -- remove -- -- -- -- --
+( remove every 10 where are the value )
+l.remove(10);
+
+
+-- -- -- -- -- -- -- sort -- -- -- -- --
 
