@@ -6,36 +6,36 @@ class Node
 public:
     int value;
     Node *next;
-    Node *prev;
+    // Node *prev;
     Node(int value)
     {
         this->value = value;
         this->next = NULL;
-        this->prev = NULL;
+        // this->prev = NULL;
     }
 };
 
-void insert_at_tail(Node *&head, int value, Node *&tail)
+void insert_at_tail(Node *&head, Node *&tail, int value)
 {
     Node *newnode = new Node(value);
+    // jodi kono node e na thake tobe -- -- -- --
     if (head == NULL)
     {
         head = newnode;
         tail = newnode;
         return;
     }
+    // adding node at tail
     tail->next = newnode;
-    newnode->prev = tail;
-    tail = newnode;
+    tail = tail->next;
 }
-
-void reversed(Node *head, Node *tail)
-{
-    for (Node *i = head, *j = tail; (i != j->next && i->prev != j); i = i->next, j = j->prev)
-    {
-        swap(i->value, j->value);
-    }
-}
+// void reversed(Node *head, Node *tail)
+// {
+//     for (Node *i = head, *j = tail; (i != j->next && i->prev != j); i = i->next, j = j->prev)
+//     {
+//         swap(i->value, j->value);
+//     }
+// }
 
 void print_forward(Node *head)
 {
@@ -60,9 +60,9 @@ int main()
         {
             break;
         }
-        insert_at_tail(head, val, tail);
+        // insert_at_tail(head, val, tail);
     }
-    reversed(head, tail);
+    // reversed(head, tail);
     print_forward(head);
     return 0;
 }
