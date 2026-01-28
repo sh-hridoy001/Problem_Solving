@@ -45,10 +45,12 @@ int main()
     st.pop();
     st.pop();
     st.pop();
-    st.pop();
+    
+    if (!st.empty())
+        st.pop();
+
     if (!st.empty())
         cout << st.top() << endl;
 
-    
     return 0;
 }
