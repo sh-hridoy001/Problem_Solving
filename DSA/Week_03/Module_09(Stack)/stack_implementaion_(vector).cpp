@@ -30,16 +30,25 @@ public:
 
 int main()
 {
-    myStack st ;
-    st.push(10) ;
+    myStack st;
+    st.push(10);
+    cout << st.top() << endl;
     st.push(70);
+    cout << st.size() << endl;
+
+    cout << st.top() << endl;
+
     st.push(60);
     st.push(50);
+    cout << st.size() << endl;
 
     st.pop();
     st.pop();
+    st.pop();
+    st.pop();
+    if (!st.empty())
+        cout << st.top() << endl;
 
     
-
     return 0;
 }
