@@ -39,7 +39,7 @@ int main()
     root->right = b;
     a->left = c;
     b->left = d;
-    b->right = d;
+    b->right = e;
     inOrder(root);
     return 0;
 }

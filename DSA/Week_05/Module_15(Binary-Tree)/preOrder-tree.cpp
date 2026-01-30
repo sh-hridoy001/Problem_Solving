@@ -37,7 +37,7 @@ int main()
     root->right = b;
     a->left = c;
     b->left = d;
-    b->right = d;
+    b->right = e;
     preOrder(root);
     return 0;
 }

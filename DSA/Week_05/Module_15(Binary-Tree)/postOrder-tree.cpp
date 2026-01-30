@@ -15,6 +15,15 @@ public:
     }
 };
 
+void postOrder(Node *root)
+{
+    if (root == NULL)
+        return;
+    postOrder(root->left);
+    postOrder(root->right);
+    cout << root->value << " ";
+}
+
 int main()
 {
     Node *root = new Node(10);
@@ -29,6 +38,6 @@ int main()
     a->left = c;
     b->left = d;
     b->right = e;
-
+    postOrder(root);
     return 0;
 }
