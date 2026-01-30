@@ -1,14 +1,12 @@
-// Author:- SH_Hridoy
+//author sh_hridoy001 --- -- -- 
 #include <bits/stdc++.h>
 using namespace std;
-
 class Node
 {
 public:
     string value;
     Node *next;
     Node *prev;
-
     Node(string value)
     {
         this->value = value;
@@ -16,73 +14,65 @@ public:
         this->prev = NULL;
     }
 };
-
-void insert_at_tail(Node *&head, Node *&tail, string value)
+void insert_at_tail(Node *&head, string value, Node *&tail)
 {
-    Node *newNode = new Node(value);
-
+    Node *newnode = new Node(value);
     if (head == NULL)
     {
-        head = newNode;
-        tail = newNode;
+        head = newnode;
+        tail = newnode;
         return;
     }
-
-    tail->next = newNode;
-    newNode->prev = tail;
-    tail = newNode;
+    tail->next = newnode;
+    newnode->prev = tail;
+    tail = newnode;
 }
-
 int main()
 {
     Node *head = NULL;
     Node *tail = NULL;
     Node *current = head;
-
     string s;
     while (true)
     {
         cin >> s;
         if (s == "end")
+        {
             break;
-
-        insert_at_tail(head, tail, s);
+        }
+        insert_at_tail(head, s, tail);
     }
-
-    int q;
-    cin >> q;
-
-    while (q--)
+    int t;
+    cin >> t;
+    while (t--)
     {
-
         string command;
         cin >> command;
-
         if (command == "visit")
         {
             string target;
             cin >> target;
-
+            bool flag = false;
             Node *temp = head;
-            bool found = false;
-
             while (temp != NULL)
             {
                 if (temp->value == target)
                 {
-                    found = true;
-                    current = temp; // position change
+                    current = temp;
+                    flag = true;
                     break;
                 }
                 temp = temp->next;
             }
-
-            if (found)
-                cout << current->value << endl;
+            if (flag == true)
+            {
+                cout << target << endl;
+            }
             else
+            {
                 cout << "Not Available" << endl;
+            }
         }
-
         else if (command == "next")
         {
             if (current->next != NULL)
@@ -95,7 +85,6 @@ int main()
                 cout << "Not Available" << endl;
             }
         }
-
         else if (command == "prev")
         {
             if (current->prev != NULL)
@@ -105,10 +94,9 @@ int main()
             }
             else
             {
-                cout << "Not Available" << endl;
+                cout << "Not Available\n";
             }
         }
     }
-
     return 0;
 }
