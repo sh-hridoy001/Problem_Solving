@@ -29,10 +29,10 @@ void level_travers(Node *root)
         cout << f->value << " ";
 
         // child push kora -- --
-        if (f->left != NULL)
+        if (f->left)       //  (f->left!=NULL) 
             q.push(f->left);
 
-        if (f->right != NULL)
+        if (f->right)
             q.push(f->right);
     }
 }
