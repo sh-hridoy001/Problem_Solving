@@ -9,8 +9,6 @@ This repo is dedicated to improving programming skills and sharing solutions for
 ![GitHub issues](https://img.shields.io/github/issues/<your-username>/<repo-name>)
 ![GitHub language count](https://img.shields.io/github/languages/count/<your-username>/<repo-name>)
 
-
-
 ---
 
 ## 🔹 Languages Used
