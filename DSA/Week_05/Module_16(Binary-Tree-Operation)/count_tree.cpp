@@ -64,6 +64,7 @@ Node *input_tree()
 
 void level_travers(Node *root)
 {
+    int count = 0;
     if (root == NULL)
     {
         cout << "NO Tree";
@@ -78,7 +79,7 @@ void level_travers(Node *root)
         q.pop();
 
         // * oi node k niye kaj
-        cout << p->value << " ";
+        count++ ;
 
         // child push kora -- --
         if (p->left) //  (f->left!=NULL)
@@ -87,11 +88,13 @@ void level_travers(Node *root)
         if (p->right)
             q.push(p->right);
     }
+    cout<<count ;
 }
 
 int main()
 {
     Node *root = input_tree();
+    // level_travers(root);
     level_travers(root);
     return 0;
 }
