@@ -6,7 +6,7 @@ int main()
 {
     int n, e;
     cin >> n >> e;
-    vector<int> adj_list[n]; // array of vector
+    vector<int> adj_list[n];  // array of vector
     while (e--)
     {
         int a, b;
