@@ -1,1 +1,0 @@
-{"name":"Local: reverse_linked_list","url":"e:\\ALL Langage Problem Solving\\DSA\\Week_02\\Module_06\\reverse_linked_list.cpp","tests":[{"id":1766815715243,"input":"10 20 30 -1","output":"30 20 10 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ALL Langage Problem Solving\\DSA\\Week_02\\Module_06\\reverse_linked_list.cpp","group":"local","local":true}
