@@ -18,6 +18,5 @@ int main()
     {
         cout << pre_v[i] << " ";
     }
-
     return 0;
 }
