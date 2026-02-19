@@ -21,6 +21,7 @@ int main()
         else
         {
             cout << "NO\n";
+            
         }
         
     }
