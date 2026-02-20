@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+// Author:- SH_Hridoy
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -29,6 +29,5 @@ int main()
 
         cout << count << endl;
     }
-
     return 0;
 }
