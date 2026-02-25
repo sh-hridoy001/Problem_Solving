@@ -8,6 +8,7 @@
         cin >> tc;
         while (tc--)
         {
+            
             int r, n, rev = 0;
             cin >> n;
             for (int j = n; j > 0; j /= 10)
