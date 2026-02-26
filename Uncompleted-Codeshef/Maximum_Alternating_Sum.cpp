@@ -1,4 +1,4 @@
-//!author : sh_hridoy001
+//author : sh_hridoy001
 #include <bits/stdc++.h>
 using namespace std;
 
