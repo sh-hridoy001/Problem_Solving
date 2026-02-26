@@ -4,12 +4,13 @@ using namespace std;
 
 int main()
 {
-    int tc;
-    cin >> tc;
-    while (tc--)
+    int t;
+    cin >> t;
+    while (t--)
     {
         int x;
         cin >> x;
+
         if (x <= 50)
             cout << "LEFT" << endl;
         else
