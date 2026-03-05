@@ -15,16 +15,13 @@ void bfs(int src)
         int par = q.front();
         q.pop();
 
-        // oi node niye kaj
-        cout << par << " ";
-
         // child niye kaj
         for (int child : adj_list[par])
         {
-            if (vis[par] == false)
+            if (!vis[child])
             {
                 q.push(child);
-                vis[child] == true;
+                vis[child] = true;
             }
         }
     }
@@ -38,11 +35,18 @@ int main()
     {
         int a, b;
         cin >> a >> b;
-        adj_list[a].push_back(b);
         adj_list[b].push_back(a);
+        adj_list[a].push_back(b);
     }
     memset(vis, false, sizeof(vis));
-    int src;
+
+    int src, dst;
+    cin >> src >> dst;
     bfs(src);
+
+    if (vis[dst])
+        cout << "YES\n";
+    else
+        cout << "NO\n";
     return 0;
 }
