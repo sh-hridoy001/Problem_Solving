@@ -20,16 +20,18 @@ void bfs(int si, int sj)
     queue<pair<int, int>> q;
     q.push({si, sj});
     vis[si][sj] = true;
+
     while (!q.empty())
     {
         pair<int, int> par = q.front();
         q.pop();
         int par_i = par.first;
         int par_j = par.second;
+        cout << par_i << " " << par_j << endl;
         for (int i = 0; i < 4; i++)
         {
             int ci = par_i + d[i].first;
-            int cj = par_i + d[i].second;
+            int cj = par_j + d[i].second;
             if (valid(ci, cj) && !vis[ci][cj])
             {
                 q.push({ci, cj});
@@ -53,3 +55,4 @@ int main()
     bfs(si, sj);
     return 0;
 }
+
