@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main()
+{
   char ch;
-  cin>> ch ;
+  cin >> ch;
   int x = int(ch);
-  cout<<x ;
+  cout << x;
 }
