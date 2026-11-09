@@ -18,7 +18,7 @@ int main()
         else
         {
             cout << "No" << endl;
-            break;
+            continue;
         }
         b = b - (type_1 * 2) - (type_2 * 1);
         if (b == 0)
