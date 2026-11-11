@@ -20,6 +20,10 @@ int main()
             {
                 current_stack++;
             }
+            else
+            {
+                current_stack = 0;
+            }
             max_stack = max(max_stack, current_stack);
         }
         cout << max_stack << endl;
